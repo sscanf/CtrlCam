@@ -1,0 +1,341 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Español resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\WinCam.rc2""  // recursos editados que no son de Microsoft Visual C++\r\n"
+    "#include ""afxres.rc""         // Componentes estándar\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\WinCam.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WINCAM_DIALOG DIALOGEX 0, 0, 344, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "WinCam"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         132,IDC_ARRIBA,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_REALSIZEIMAGE,228,87,20,15
+    CONTROL         134,IDC_ABAJO,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_REALSIZEIMAGE,228,145,20,15
+    CONTROL         136,IDC_IZQUIERDA,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_REALSIZEIMAGE,198,114,16,18
+    CONTROL         144,IDC_ARRIBAIZDA,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_REALSIZEIMAGE,209,97,18,17
+    CONTROL         143,IDC_ARRIBADRCHA,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_REALSIZEIMAGE,249,98,18,17
+    CONTROL         142,IDC_ABAJOIZDA,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_REALSIZEIMAGE,210,132,18,17
+    CONTROL         141,IDC_ABAJODRCHA,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_REALSIZEIMAGE,248,132,18,16
+    LTEXT           "DISPLAY",IDC_DISPLAY,43,16,42,27,WS_BORDER
+    CONTROL         155,IDC_TECLA1,"Static",SS_BITMAP | SS_NOTIFY,27,58,21,
+                    18
+    CONTROL         157,IDC_TECLA2,"Static",SS_BITMAP | SS_NOTIFY,53,58,21,
+                    18
+    CONTROL         159,IDC_TECLA3,"Static",SS_BITMAP | SS_NOTIFY,79,58,21,
+                    18
+    CONTROL         161,IDC_TECLA4,"Static",SS_BITMAP | SS_NOTIFY,27,84,21,
+                    18
+    CONTROL         163,IDC_TECLA5,"Static",SS_BITMAP | SS_NOTIFY,53,84,21,
+                    18
+    CONTROL         165,IDC_TECLA6,"Static",SS_BITMAP | SS_NOTIFY,79,84,21,
+                    18
+    CONTROL         167,IDC_TECLA7,"Static",SS_BITMAP | SS_NOTIFY,27,108,21,
+                    19
+    CONTROL         169,IDC_TECLA8,"Static",SS_BITMAP | SS_NOTIFY,53,108,21,
+                    19
+    CONTROL         171,IDC_TECLA9,"Static",SS_BITMAP | SS_NOTIFY,79,108,21,
+                    19
+    CONTROL         175,IDC_TECLA10,"Static",SS_BITMAP | SS_NOTIFY,26,134,21,
+                    19
+    CONTROL         176,IDC_TECLA11,"Static",SS_BITMAP | SS_NOTIFY,52,134,21,
+                    19
+    CONTROL         173,IDC_TECLA12,"Static",SS_BITMAP | SS_NOTIFY,78,134,21,
+                    19
+    CONTROL         181,IDC_FOCOMAS,"Static",SS_BITMAP | SS_NOTIFY,138,29,21,
+                    18
+    CONTROL         180,IDC_FOCOMENOS,"Static",SS_BITMAP | SS_NOTIFY,163,28,
+                    21,19
+    CONTROL         181,IDC_ZOOMMAS,"Static",SS_BITMAP | SS_NOTIFY,189,29,21,
+                    18
+    CONTROL         180,IDC_ZOOMMENOS,"Static",SS_BITMAP | SS_NOTIFY,214,28,
+                    21,19
+    CONTROL         135,IDC_DERECHA,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_REALSIZEIMAGE,262,115,16,18
+    CONTROL         "",IDC_CONFIG,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,261,24,23,22
+    CONTROL         "",IDC_CONECTAR,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,309,24,23,22
+    CONTROL         189,IDC_LEDOFF,"Static",SS_BITMAP,316,13,8,7
+END
+
+IDD_CONFIG DIALOGEX 0, 0, 217, 80
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_PORT,103,26,48,93,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Aceptar",IDOK,44,55,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,123,55,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Nombre de la compañía>"
+            VALUE "FileDescription", "TODO: <Descripción del archivo>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "WinCam.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Nombre de la compañía>.  Reservados todos los derechos."
+            VALUE "OriginalFilename", "WinCam.exe"
+            VALUE "ProductName", "TODO: <Nombre del producto>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_WINCAM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 337
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\WinCam.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_FONDO               BITMAP                  "res\\CTRLCAM.BMP"
+IDB_ARRIBA              BITMAP                  "res\\ARRIBA.bmp"
+IDB_ABAJO               BITMAP                  "res\\abajo.bmp"
+IDB_DERECHA             BITMAP                  "res\\derecha.bmp"
+IDB_IZQUIERDA           BITMAP                  "res\\izquierda.bmp"
+IDB_ABAJODRCHA          BITMAP                  "res\\abajodrcha.bmp"
+IDB_ABAJOIZDA           BITMAP                  "res\\abajoizda.bmp"
+IDB_ARRIBADRCHA         BITMAP                  "res\\arribadrcha.bmp"
+IDB_ARRIBAIZDA          BITMAP                  "res\\arribaizda.bmp"
+IDB_ARRIBAIZDAP         BITMAP                  "res\\arribaizdap.bmp"
+IDB_ABAJOIZDAP          BITMAP                  "res\\abajoizdap.bmp"
+IDB_ABAJOP              BITMAP                  "res\\abajop.bmp"
+IDB_ARRIBADRCHAP        BITMAP                  "res\\arribadrchap.bmp"
+IDB_ABAJODRCHAP         BITMAP                  "res\\abajodrchap.bmp"
+IDB_ARRIBAP             BITMAP                  "res\\ARRIBAp.bmp"
+IDB_DERECHAP            BITMAP                  "res\\derechap.bmp"
+IDB_IZQUIERDAP          BITMAP                  "res\\izquierdap.bmp"
+IDB_TECLAASTP           BITMAP                  "res\\teclaAstp.bmp"
+IDB_TECLA0P             BITMAP                  "res\\tecla0p.bmp"
+IDB_TECLA1              BITMAP                  "res\\tecla1.bmp"
+IDB_TECLA1P             BITMAP                  "res\\tecla1p.bmp"
+IDB_TECLA2              BITMAP                  "res\\tecla2.bmp"
+IDB_TECLA2P             BITMAP                  "res\\tecla2p.bmp"
+IDB_TECLA3              BITMAP                  "res\\tecla3.bmp"
+IDB_TECLA3P             BITMAP                  "res\\tecla3p.bmp"
+IDB_TECLA4              BITMAP                  "res\\tecla4.bmp"
+IDB_TECLA4P             BITMAP                  "res\\tecla4p.bmp"
+IDB_TECLA5              BITMAP                  "res\\tecla5.bmp"
+IDB_TECLA5P             BITMAP                  "res\\tecla5p.bmp"
+IDB_TECLA6              BITMAP                  "res\\tecla6.bmp"
+IDB_TECLA6P             BITMAP                  "res\\tecla6p.bmp"
+IDB_TECLA7              BITMAP                  "res\\tecla7.bmp"
+IDB_TECLA7P             BITMAP                  "res\\tecla7p.bmp"
+IDB_TECLA8              BITMAP                  "res\\tecla8.bmp"
+IDB_TECLA8P             BITMAP                  "res\\tecla8p.bmp"
+IDB_TECLA9              BITMAP                  "res\\tecla9.bmp"
+IDB_TECLA9P             BITMAP                  "res\\tecla9p.bmp"
+IDB_TECLAALM            BITMAP                  "res\\teclaalmo.bmp"
+IDB_TECLAALMP           BITMAP                  "res\\teclaalmop.bmp"
+IDB_TECLAAST            BITMAP                  "res\\teclaAst.bmp"
+IDB_TECLA0              BITMAP                  "res\\tecla0.bmp"
+IDB_MENOSP              BITMAP                  "res\\menosp.bmp"
+IDB_MASP                BITMAP                  "res\\masp.bmp"
+IDB_MENOS               BITMAP                  "res\\menos.bmp"
+IDB_MAS                 BITMAP                  "res\\mas.bmp"
+IDB_CONFIG2             BITMAP                  "res\\bitmap3.bmp"
+IDB_CONFIG1             BITMAP                  "res\\bitmap4.bmp"
+IDB_LEDOFF              BITMAP                  "res\\led2.bmp"
+IDB_LEDON               BITMAP                  "res\\led1.bmp"
+IDB_CONECTAR2           BITMAP                  "res\\conectar2.bmp"
+IDB_CONECTAR            BITMAP                  "res\\conectar.bmp"
+IDB_CONFIG              BITMAP                  "res\\config.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS 
+BEGIN
+    "1",            IDC_TECLA1,             ASCII,  NOINVERT
+    "0",            IDC_TECLA11,            ASCII,  NOINVERT
+    "2",            IDC_TECLA2,             ASCII,  NOINVERT
+    "3",            IDC_TECLA3,             ASCII,  NOINVERT
+    "4",            IDC_TECLA4,             ASCII,  NOINVERT
+    "5",            IDC_TECLA5,             ASCII,  NOINVERT
+    "6",            IDC_TECLA6,             ASCII,  NOINVERT
+    "7",            IDC_TECLA7,             ASCII,  NOINVERT
+    "8",            IDC_TECLA8,             ASCII,  NOINVERT
+    "9",            IDC_TECLA9,             ASCII,  NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CONFIG DLGINIT
+BEGIN
+    IDC_PORT, 0x403, 5, 0
+0x4f43, 0x314d, "\000" 
+    IDC_PORT, 0x403, 5, 0
+0x4f43, 0x324d, "\000" 
+    IDC_PORT, 0x403, 5, 0
+0x4f43, 0x334d, "\000" 
+    IDC_PORT, 0x403, 5, 0
+0x4f43, 0x344d, "\000" 
+    0
+END
+
+#endif    // Español resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#include "res\WinCam.rc2"  // recursos editados que no son de Microsoft Visual C++
+#include "afxres.rc"         // Componentes estándar
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
